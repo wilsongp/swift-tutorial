@@ -1,10 +1,7 @@
 //: ### Default Values
 //: [TOC](00TOC) | [Previous](@previous) | [Next](@next)
-func hello() -> String {
-    hello(name: "World")
-}
 
-func hello(name: String) -> String {
+func hello(name: String = "World") -> String {
     "Hello, \(name)!"
 }
 
